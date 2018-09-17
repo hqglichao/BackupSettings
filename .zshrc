@@ -1,6 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:/usr/bin:$PATH:/opt/node-v6.11.1-linux-x64/bin:/opt/android-studio/bin:$HOME/Android/Sdk/platform-tools/:$/home/beyond/Data/aosp/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9/bin:$PATH
-export PATH=$PATH:/home/beyond/Android/android-ndk-r14b
+export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/opt/android-studio/gradle/gradle-4.1/bin:$PATH:/opt/node-v6.11.1-linux-x64/bin:/opt/android-studio/bin:$HOME/Android/Sdk/platform-tools/:$/home/beyond/Data/aosp/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9/bin:$PATH
 # Path to your oh-my-zsh installation.
   export ZSH=/home/beyond/.oh-my-zsh
 
@@ -84,8 +83,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cls=clear
-alias gitPush="git push --no-thin origin HEAD:refs/for/master%r=luohongzhen@qiyi.com"
-alias gitnPush="git push --no-thin origin HEAD:refs/for/master"
+alias gitPush="git push origin HEAD:refs/for/master%r=luohongzhen@qiyi.com"
+alias gitnPush="git push origin HEAD:refs/for/master"
 alias gitR="git reset --hard HEAD"
 alias gitR5="git reset --hard HEAD~5"
 alias gitww="git log --pretty=format:\"%an: %s\" --author=huangqinggai --since=1.weeks"
