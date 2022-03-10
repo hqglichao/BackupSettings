@@ -22,7 +22,7 @@ export CXX=/usr/bin/g++
 alias gst='git status'
 alias gl='git log'
 alias gd='git diff'
-alias gds='git diff --stage'
+alias gds='git diff --staged'
 alias gl='git log'
 alias gitR='git reset --hard HEAD'
 alias gpr='git pull -r'
@@ -33,9 +33,10 @@ alias gitPushF='git push origin feature/doutu_demo'
 alias installRJ='java -jar /Users/keanuhuang/Downloads/RDUserTool_1.0.2\ \(1\).jar '
 
 alias opc='open ./'
+alias cdNote='~/Documents/Note'
 
-#JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home
-JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home
+#JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home
 PATH=$JAVA_HOME/bin:$PATH:.
 CLASSPATH=$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar:.
 export JAVA_HOME
